@@ -65,7 +65,7 @@
                             </a>
                             <a href="shoppingcart.php">
                                 <i class="fas fa-shopping-cart icon-color-orange"></i>
-                            </a>    
+                            </a>
                         </div>
                     </div>
                 </div>
@@ -158,9 +158,12 @@
             </div>
         </nav>
         <!-- Navbar -->
-<?php include $carousel; ?>
+        <?php
+        if (isset($carousel))
+            include $carousel;
+        ?>
     </header>
-<?php include $views; ?>
+    <?php include $views; ?>
     <!-- Footer -->
     <footer class="page-footer font-small  pt-5 mt-5 " style="background-color:#f6f6f6;">
         <!-- Footer Links -->
