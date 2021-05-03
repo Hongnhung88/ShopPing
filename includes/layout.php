@@ -65,7 +65,7 @@
                             </a>
                             <a href="shoppingcart.php">
                                 <i class="fas fa-shopping-cart icon-color-orange"></i>
-                            </a>
+                            </a>    
                         </div>
                     </div>
                 </div>

@@ -1,6 +1,6 @@
 <?php
 class database{
-    var $dbh = '';
+    var $dbh = "";
     var $sql = '';
     var $cursor = null;
 

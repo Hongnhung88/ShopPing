@@ -1,8 +1,8 @@
 <?php 
-class C_Mcqueen {
-    public function ShowMcQueen()
+class C_Nikej1 {
+    public function ShowNikej1()
     {
-        # code mcqeen page
+        # code Nikej1 page
         $views = './views/v_GIAY_MOI.php';
         $carousel = './views/item/vi_carousel.php';
         include './includes/layout.php';
