@@ -3,7 +3,7 @@
 <!-- vans -->
 <div class="row">
     <?php
-    // for ($i = 0; $i < 8; $i++) {
+    for ($i = 0; $i < 8; $i++) {
     ?>
     <div class="col-6 col-sm-6 col-md-3">
         <div class="card mt-3">
@@ -15,11 +15,6 @@
         </div>
     </div>
     <?php
-    // }
-    ?>
-    <?php
-    for ($i = 0; $i < 7; $i++) {
-        include('./item/vi_giayBanChay.php');
     }
     ?>
 
