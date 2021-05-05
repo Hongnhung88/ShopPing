@@ -9,7 +9,7 @@
                         <span class="text d-block">Vớ Tất Nam Nữ Nhật Cotton 100% Ba Màu Cơ Bản Cực Mỏng Hiruma</span>
                     </div>
                     <div class="cost mt-3 text-dark">
-                        <span>6.000đ</span>
+                        <span>6,000đ</span>
                         <div class="p-3">
                             <button class="btn btn-outline-info">Mua ngay</button>
                         </div>
@@ -25,7 +25,7 @@
                         <span class="text d-block">Tất (Vớ) Nam Nữ Unisex Cotton Trơn Gabofashion TVU007</span>
                     </div>
                     <div class="cost mt-3 text-dark">
-                        <span>15.000đ</span>
+                        <span>15,000đ</span>
                         <div class="p-3">
                             <button class="btn btn-outline-info">Mua ngay</button>
                         </div>
@@ -41,7 +41,7 @@
                         <span class="text d-block">Bình Xịt Vệ Sinh Giày Sneaker Cao Cấp</span>
                     </div>
                     <div class="cost mt-3 text-dark">
-                        <span>100.00đ</span>
+                        <span>100,000đ</span>
                         <div class="p-3">
                             <button class="btn btn-outline-info">Mua ngay</button>
                         </div>
@@ -57,7 +57,7 @@
                         <span class="text d-block">Xịt khử mùi giày MOATTEO hương Juna 75ml</span>
                     </div>
                     <div class="cost mt-3 text-dark">
-                        <span>80.000đ</span>
+                        <span>80,000đ</span>
                         <div class="p-3">
                             <button class="btn btn-outline-info">Mua ngay</button>
                         </div>
@@ -73,7 +73,7 @@
                         <span class="text d-block">Xịt khử mùi giày MOATTEO hương Juna 50ml</span>
                     </div>
                     <div class="cost mt-3 text-dark">
-                        <span>50.000đ</span>
+                        <span>50,000đ</span>
                         <div class="p-3">
                             <button class="btn btn-outline-info">Mua ngay</button>
                         </div>
@@ -89,7 +89,7 @@
                         <span class="text d-block">Cặp lót giày bằng da CHONGIAY êm chân và khử mùi</span>
                     </div>
                     <div class="cost mt-3 text-dark">
-                        <span>60.000đ</span>
+                        <span>60,000đ</span>
                         <div class="p-3">
                             <button class="btn btn-outline-info">Mua ngay</button>
                         </div>
@@ -105,7 +105,7 @@
                         <span class="text d-block">Cặp lót giày bằng da CHONGIAY êm chân và khử mùi</span>
                     </div>
                     <div class="cost mt-3 text-dark">
-                        <span>60.000đ</span>
+                        <span>60,000đ</span>
                         <div class="p-3">
                             <button class="btn btn-outline-info">Mua ngay</button>
                         </div>
@@ -121,7 +121,7 @@
                         <span class="text d-block">Lót Giày Hương Quế, Lót Giầy Khử Mùi Hôi Hiệu Quả</span>
                     </div>
                     <div class="cost mt-3 text-dark">
-                        <span>9.900đ</span>
+                        <span>20,000đ</span>
                         <div class="p-3">
                             <button class="btn btn-outline-info">Mua ngay</button>
                         </div>

@@ -3,14 +3,14 @@
 <!-- vans -->
 <div class="row">
     <?php
-    for ($i = 0; $i < 8; $i++) {
+    if(isset($giayBanchay))
+    for ($i = 0; $i < count($giayBanchay); $i++) {
     ?>
     <div class="col-6 col-sm-6 col-md-3">
         <div class="card mt-3">
             <div class="product-1 alight-item-center p2 text-center">
-                <img src="./img/product/vans1.png" alt="" class="rounded img-fluid" width="150">
-                <h5>vans
-                </h5>
+                <img src="<?php echo $giayBanchay[$i]->anhGiay;?>" alt="" class="rounded img-fluid" width="150">
+                <h5><?php echo $giayBanchay[$i]->tenGiay ?></h5>
             </div>
         </div>
     </div>

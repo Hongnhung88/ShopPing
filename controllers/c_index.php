@@ -3,9 +3,12 @@ class C_index {
     public function ShowShoseIndex()
     {
         # code show shose index
+        #models
+        include './models/m_index.php';
+        $m_index = new M_Index();
+        $giayBanchay = $m_index->LaySanPhamBanChay();
         # page and item include
         #item 
-        $ViewsBanChay = './views/item/vi_giay.php';
         $carousel = './views/item/vi_carousel.php';
         #page
         $views = './views/page/vp_index.php';

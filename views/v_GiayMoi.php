@@ -1,5 +1,4 @@
-<h2 class="text-center mt-5">Sản phẩm mới
-        </h2>
+<h2 class="text-center mt-5">Sản phẩm mới</h2>
         <!-- row1 -->
         <div class="row">
             <div class="col-6  col-md-3">
@@ -12,7 +11,7 @@
                             </span>
                         </div>
                         <div class="cost mt-3 text-dark">
-                            <span>1.000.00₫
+                            <span>1,000,000₫
                             </span>
                             <div class="star mt-3 alight-item-center">
                                 <i class="fa fa-star">
@@ -26,8 +25,7 @@
                                 <i class="fa fa-star">
                                 </i>
                                 <div class="p-3">
-                                    <button class="btn btn-outline-info">Xem ngay
-                                    </button>
+                                    <button class="btn btn-outline-info">Xem ngay</button>
                                 </div>
                             </div>
                         </div>
@@ -44,22 +42,17 @@
                             </span>
                         </div>
                         <div class="cost mt-3 text-dark">
-                            <span>1.000.00₫
-                            </span>
+                            <span>1,000,000₫</span>
                             <div class="star mt-3 alight-item-center">
                                 <i class="fa fa-star">
                                 </i>
                                 <i class="fa fa-star">
                                 </i>
-                                <i class="fa fa-star">
-                                </i>
-                                <i class="fa fa-star">
-                                </i>
-                                <i class="fa fa-star">
-                                </i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
                                 <div class="p-3">
-                                    <button class="btn btn-outline-info">Xem ngay
-                                    </button>
+                                    <button class="btn btn-outline-info">Xem ngay</button>
                                 </div>
                             </div>
                         </div>
@@ -76,7 +69,7 @@
                             </span>
                         </div>
                         <div class="cost mt-3 text-dark">
-                            <span>1.000.00₫
+                            <span>1,000,000₫
                             </span>
                             <div class="star mt-3 alight-item-center">
                                 <i class="fa fa-star">
@@ -108,7 +101,7 @@
                             </span>
                         </div>
                         <div class="cost mt-3 text-dark">
-                            <span>1.000.00₫
+                            <span>1,000,000₫
                             </span>
                             <div class="star mt-3 alight-item-center">
                                 <i class="fa fa-star">
@@ -144,7 +137,7 @@
                             </span>
                         </div>
                         <div class="cost mt-3 text-dark">
-                            <span>1.000.00₫
+                            <span>1,000,000₫
                             </span>
                             <div class="star mt-3 alight-item-center">
                                 <i class="fa fa-star">
@@ -176,7 +169,7 @@
                             </span>
                         </div>
                         <div class="cost mt-3 text-dark">
-                            <span>1.000.00₫
+                            <span>1,000,000₫
                             </span>
                             <div class="star mt-3 alight-item-center">
                                 <i class="fa fa-star">
@@ -208,7 +201,7 @@
                             </span>
                         </div>
                         <div class="cost mt-3 text-dark">
-                            <span>1.000.00₫
+                            <span>1,000,000₫
                             </span>
                             <div class="star mt-3 alight-item-center">
                                 <i class="fa fa-star">
@@ -241,7 +234,7 @@
                                 </span>
                             </div>
                             <div class="cost mt-3 text-dark">
-                                <span>1.000.00₫
+                                <span>1,000,000₫
                                 </span>
                                 <div class="star mt-3 alight-item-center">
                                     <i class="fa fa-star">

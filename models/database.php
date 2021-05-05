@@ -1,18 +1,18 @@
 <?php
 class database{
-    var $dbh = "";
+    var $dbh = null;
     var $sql = '';
     var $cursor = null;
 
-    var $servername = 'localhost';
-    var $dbname = 'demo';
-    var $username = 'root';
-    var $password = '';
+    private $servername = 'localhost';
+    private $dbname = 'shop_ping';
+    private $username = 'root';
+    private $password = '';
 
     public function database()
     {
         try {
-            $this->dbh = new PDO("mysql:host=$servername; dbname=$dbname",$username, $password);
+            $this->dbh = new PDO("mysql:host=$this->servername; dbname=$this->dbname",$this->username, $this->password);
             $this->dbh->query('set names "utf8"');
         } catch (Exception $e) {
             echo $e->getMessage();
@@ -38,7 +38,7 @@ class database{
             }
         }
         $this->cursor->execute();
-        return $this->result;
+        return $this->cursor;
     }
 
     public function getAllRows($options = array())
