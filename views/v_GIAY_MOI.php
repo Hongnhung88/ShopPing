@@ -28,6 +28,8 @@
                                 </i>
                                 <div class="p-3">
                                     <button class="btn btn-outline-info">Mua ngay</button>
+                                    <!-- sua thanh link bang the a chu ko de button  --> 
+                                    <a class="btn btn-outline-info" href="#">Mua ngay</a>
                                 </div>
                             </div>
                         </div>
