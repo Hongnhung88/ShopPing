@@ -1,5 +1,5 @@
 <?php
-include './database.php';
+include 'database.php';
 class M_Nikej1 extends database{
     public function LayGiayNikej1()
     {

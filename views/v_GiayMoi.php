@@ -1,4 +1,7 @@
 <h2 class="text-center mt-5">Sản phẩm mới</h2>
+<?php 
+print_r($dsGiay);
+?>
         <!-- row1 -->
         <div class="row">
             <div class="col-6  col-md-3">
@@ -48,7 +51,8 @@
                                 </i>
                                 <i class="fa fa-star">
                                 </i>
-                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star">
+                                </i>
                                 <i class="fa fa-star"></i>
                                 <i class="fa fa-star"></i>
                                 <div class="p-3">

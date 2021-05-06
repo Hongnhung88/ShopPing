@@ -1,5 +1,5 @@
 <?php
-include './database.php';
+include 'database.php';
 class M_Vans extends database{
     public function LayGiayVans()
     {

@@ -1,4 +1,4 @@
 <?php
-include './database.php';
+include 'database.php';
 class M_Cart extends database{}
 ?>

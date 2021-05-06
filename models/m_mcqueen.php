@@ -1,5 +1,5 @@
 <?php
-include './database.php';
+include 'database.php';
 class M_Mcqueen extends database{
     public function LayGiayMcqueen()
     {
