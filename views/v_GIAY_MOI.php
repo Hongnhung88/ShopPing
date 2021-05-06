@@ -2,6 +2,8 @@
     <h1 class="text-center mt-3">SẢN PHẨM MỚI</h1>
     <div class="row">
         <?php
+        print_r($dsGiay);
+        echo $e;
         for ($i = 0; $i < 9; $i++) {
         ?>
             <div class="col-12 col-md-3">
@@ -28,8 +30,7 @@
                                 <i class="fa fa-star">
                                 </i>
                                 <div class="p-3">
-                                    <button class="btn btn-outline-info">Mua ngay
-                                    </button>
+                                    <button class="btn btn-outline-info">Mua ngay</button>
                                 </div>
                             </div>
                         </div>
