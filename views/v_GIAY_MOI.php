@@ -2,8 +2,6 @@
     <h1 class="text-center mt-3">SẢN PHẨM MỚI</h1>
     <div class="row">
         <?php
-        print_r($dsGiay);
-
         for ($i = 0; $i < count($dsGiay); $i++) {
         ?>
             <div class="col-12 col-md-3">
