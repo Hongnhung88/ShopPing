@@ -27,7 +27,6 @@
                                 <i class="fa fa-star">
                                 </i>
                                 <div class="p-3">
-                                    <button class="btn btn-outline-info">Mua ngay</button>
                                     <!-- sua thanh link bang the a chu ko de button  --> 
                                     <a class="btn btn-outline-info" href="/ShopPing/demo.php?demo=<?php echo $dsGiay[$i]->tenGiay;?>">Mua ngay</a>
                                 </div>

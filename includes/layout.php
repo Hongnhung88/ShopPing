@@ -57,12 +57,24 @@
                     </div>
                     <div class=" col-lg-4 col-xl-2 col-xxl-2  active">
                         <div class="text-right">
-                            <a href="register.php" class="ml-2">
-                                <i class="far fa-edit icon-color-orange">Đăng ký</i>
-                            </a>
-                            <a href="login.php" class="ml-2">
-                                <i class="far fa-user-circle icon-color-orange">Đăng nhập</i>
-                            </a>
+                            <?php
+                            if (!$username) {
+                            ?>
+                                <a href="register.php" class="ml-2">
+                                    <i class="far fa-edit icon-color-orange">Đăng ký</i>
+                                </a>
+                                <a href="login.php" class="ml-2">
+                                    <i class="far fa-user-circle icon-color-orange">Đăng nhập</i>
+                                </a>
+                            <?php
+                            } else {
+                                ?>
+                                <a href="login.php" class="ml-2">
+                                    <i class="far fa-user-circle icon-color-orange">Xin chao : <?php echo $username?></i>
+                                </a>
+                                <?php 
+                            }
+                            ?>
                             <a href="shoppingcart.php">
                                 <i class="fas fa-shopping-cart icon-color-orange"></i>
                             </a>
