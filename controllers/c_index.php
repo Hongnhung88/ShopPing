@@ -1,5 +1,6 @@
 <?php 
-class C_index {
+include 'c_checklogin.php';
+class C_index{
     public function ShowShoseIndex()
     {
         # code show shose index
@@ -7,6 +8,7 @@ class C_index {
         include './models/m_index.php';
         $m_index = new M_Index();
         $giayBanchay = $m_index->LaySanPhamBanChay();
+        $giayMoi = $m_index->LaySanPhamMoi();
         # page and item include
         #item 
         $carousel = './views/item/vi_carousel.php';
