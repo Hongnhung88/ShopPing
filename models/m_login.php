@@ -4,8 +4,7 @@ class M_Login extends database{
     public function DangNhap(string $email, string $password)
     {
         # code for check login
-        $this->setSql("select * from tbladmin a where a.email = '".$email."' and a.password = '".$password."'");
+        $this->setSql("select * from tblusers where EmailId = '".$email."' and Password = '".$password."'");
         return $this->getAllRows();
     }
 }
-?>

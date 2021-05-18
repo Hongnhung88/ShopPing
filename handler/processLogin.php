@@ -9,7 +9,7 @@ if ($email == null && $password == null) {
 $m_login = new M_Login();
 $login = $m_login->DangNhap($email, $password);
 if (count($login) == 1) {
-    $_SESSION['username'] = $login[0]->username;
+    $_SESSION['username'] = $login[0]->EmailId;
     print_r($_SESSION['username']);
     header("Location: /ShopPing/index.php");
 } else {
