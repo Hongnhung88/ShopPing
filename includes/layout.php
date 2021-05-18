@@ -58,7 +58,7 @@
                     <div class=" col-lg-4 col-xl-2 col-xxl-2  active">
                         <div class="text-right">
                             <?php
-                            if (!$username) {
+                            if (!isset($_SESSION['username'])) {
                             ?>
                                 <a href="register.php" class="ml-2">
                                     <i class="far fa-edit icon-color-orange">Đăng ký</i>
@@ -68,11 +68,15 @@
                                 </a>
                             <?php
                             } else {
-                                ?>
+                            ?>
+
                                 <a href="login.php" class="ml-2">
-                                    <i class="far fa-user-circle icon-color-orange">Xin chao : <?php echo $username?></i>
+                                    <i class="far fa-user-circle icon-color-orange">Xin chao : <?php echo $_SESSION['username'];?></i>
                                 </a>
-                                <?php 
+                                <a href="logout.php" class="ml-2">
+                                    <i class="far fa-user-circle icon-color-orange">Đăng xuất</i>
+                                </a>
+                            <?php
                             }
                             ?>
                             <a href="shoppingcart.php">

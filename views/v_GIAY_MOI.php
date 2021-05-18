@@ -27,8 +27,8 @@
                                 <i class="fa fa-star">
                                 </i>
                                 <div class="p-3">
-                                    <!-- sua thanh link bang the a chu ko de button  --> 
-                                    <a class="btn btn-outline-info" href="/ShopPing/demo.php?demo=<?php echo $dsGiay[$i]->tenGiay;?>">Mua ngay</a>
+                                    <!-- sua thanh link bang the a chu ko de button  -->
+                                    <a class="btn btn-outline-info" href="/ShopPing/demo.php?demo=<?php echo $dsGiay[$i]->tenGiay; ?>">Mua ngay</a>
                                 </div>
                             </div>
                         </div>
@@ -38,22 +38,23 @@
         <?php
         }
         ?>
-        <nav aria-label="Page navigation example">
-            <ul class="pagination">
-                <li class="page-item">
-                    <a class="page-link" href="#" aria-label="Previous">
-                        <span aria-hidden="true">&laquo;</span>
-                    </a>
-                </li>
-                <li class="page-item"><a class="page-link" href="#">1</a></li>
-                <li class="page-item"><a class="page-link" href="#">2</a></li>
-                <li class="page-item"><a class="page-link" href="#">3</a></li>
-                <li class="page-item">
-                    <a class="page-link" href="#" aria-label="Next">
-                        <span aria-hidden="true">&raquo;</span>
-                    </a>
-                </li>
-            </ul>
-        </nav>
+
     </div>
+    <nav aria-label="Page navigation example">
+        <ul class="pagination">
+            <li class="page-item">
+                <a class="page-link" href="#" aria-label="Previous">
+                    <span aria-hidden="true">&laquo;</span>
+                </a>
+            </li>
+            <li class="page-item"><a class="page-link" href="#">1</a></li>
+            <li class="page-item"><a class="page-link" href="#">2</a></li>
+            <li class="page-item"><a class="page-link" href="#">3</a></li>
+            <li class="page-item">
+                <a class="page-link" href="#" aria-label="Next">
+                    <span aria-hidden="true">&raquo;</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
 </main>

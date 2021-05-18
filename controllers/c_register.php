@@ -6,4 +6,4 @@ class C_Register {
         $views = './views/page/vp_register.php';
         include './includes/layout.php';
     }
-}
+}?>

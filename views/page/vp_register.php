@@ -6,7 +6,7 @@
         <div class="col-12  col-xs-12 col-sm-8 col-md-8 col-lg-6  col-xl-4 mt-5  bg-white rounded shadow mb-5">
             <div class="row">
                 <div class="col-lg-12">
-                    <form class="text-center p-3" action='validateregister.php' method="POST" >
+                    <form class="text-center p-3" action='/ShopPing/handler/processRegister.php' method="POST" >
                         <p class="h1 mb-4 mt-4">Đăng ký
                         </p>
                         <?php if (isset($_GET['error'])) { ?>
